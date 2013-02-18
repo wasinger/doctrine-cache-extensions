@@ -1,0 +1,24 @@
+{
+    "name":"wa72/doctrine-cache-extensions",
+    "description":"Extensions for DoctrineCache",
+    "keywords":["cache", "caching", "doctrine"],
+    "homepage":"http://github.com/wasinger/doctrine-cache-extensions",
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Christoph Singer",
+            "email":"singer@webagentur72.de",
+            "homepage":"http://www.webagentur72.de"
+        }
+    ],
+    "require":{
+        "doctrine/cache":"~1.0"
+    },
+    "autoload":{
+        "psr-0":{
+            "Wa72\\DoctrineCacheExtensions":"src/"
+        }
+    }
+}
+
